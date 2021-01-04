@@ -1,0 +1,198 @@
+
+@font-face {
+    font-family:sfpro;
+    src: url(./font/San-Francisco-Pro-Fonts-master);
+ }
+ @font-face{
+     font-family:sequel;
+     src: url(../fonts/MonumentExtended-Bold.woff);
+ }
+ * {
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 10%;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.blinker {
+    border-right: 2px solid black;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        border-right-color: black;
+    }
+
+    100% {
+        border-right-color: white;
+    }
+}
+
+.logo {
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+}
+.typewriter {
+    
+    width:100vw;
+    height: auto;
+    font-size: 2rem;
+ 
+    text-align: center;
+    
+}
+
+footer{
+    text-align: center;
+}
+
+
+
+
+.main {
+    display:block;
+    height:100vh;
+    width: auto;
+    overflow-x: hidden; 
+}
+.content {
+   
+    display: flex;
+    align-items: center;
+   }
+
+  
+
+  .main-button{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 40px;
+      justify-content: space-around;
+      font-family: monospace;
+     
+  }
+  .download {
+      padding: 20px;
+      border-radius: 35px;
+      box-shadow: 5px 10px 20px grey;
+      font-size: 1.25rem;
+      outline: none;
+      border:none;
+      background-color: black;
+      color:whitesmoke;
+      margin:20px;
+      width: 400px;
+  }
+  .download:focus  {
+    outline: none;
+    border:none;
+  }
+
+  footer{
+      background-color:#3A0CA3 ;
+      margin-top: 10%;
+      padding: 2rem;
+      color:#E5E5E5;
+  }
+  .footer-para {
+      margin-bottom : 0%
+  }
+  .footer-link{
+    text-decoration: none;
+    color: #F72585;
+  }
+
+
+.submit-card {
+  max-width: 500px;
+ margin:2rem auto;  
+ box-shadow: 5px 10px 20px grey;
+ display: inline-block;
+ padding: 100px;
+ 
+}
+.text-input{
+    width: 300px;
+}
+.text-area{
+    display: block;
+    width: 300px;
+    height: 250px;
+}
+.submit-btn{
+    max-width:50vw;
+    width:230px;
+    margin: 50px auto;
+    
+}
+.card{
+   display: flex;
+   justify-content: space-between;
+}
+.form-card{
+    border:2px solid red;
+    display: flex;
+    width: 200px;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    color: black; 
+    -webkit-backdrop-filter: saturate(180%) blur(10px);
+  backdrop-filter: saturate(180%) blur(20px);
+  background-color: rgba(255,255,255,.4);
+  
+    border-bottom: 1px solid #909090;
+    z-index: 10000;
+}
+
+
+@media only screen and ( max-width: 640px ) {
+    .dev-img { 
+      display: none;
+    }
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        margin-top: 30%;
+
+    }
+    .submit-card {
+        max-width: 95vw;
+        margin:1rem auto; 
+        box-shadow: 5px 10px 30px grey;
+      
+        padding: 10px;
+        
+       }
+       .text-input{
+           width:75vw;
+       }
+       .text-area{
+         width:75vw;
+     }
+     .submit-btn{
+         width:50vw;
+         margin: 50px auto;
+         
+     }
+     .download{
+         width:200px;
+     }
+    
+    
+  }
