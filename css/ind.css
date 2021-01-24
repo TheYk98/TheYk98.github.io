@@ -11,6 +11,7 @@
     box-sizing: border-box;
     margin:0;
     padding: 0;
+    flex-wrap: wrap;
   }
 
 
@@ -159,6 +160,9 @@ footer{
 }
 
 @media only screen and ( max-width: 640px ) {
+    .project{
+        padding: 2rem 2rem;
+    }
     .dev-img { 
       display: none;
     }
@@ -196,6 +200,8 @@ footer{
     
     
   }
+
+
   .sub-div{
     font-size: 20rem;
   }
@@ -242,4 +248,57 @@ nav{
 }
 a{
     color:rgb(240, 238, 238) !important;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.project{
+    max-width:80vw;
+    width:25rem;
+    padding: 5rem 5rem;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    border-radius: 2rem;
+    margin:10rem 2rem;
+}
+
+.projects-container{
+    min-height: 100vh;
+   
+}
+
+button{
+    border:none;
+    padding:5px;
+    border-radius: 2rem;
+    background-color: white;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    outline: none;
+}
+.negative-tag{
+    
+    background-color: red;
+    color:white;
+   
+}
+
+.tags{
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+.positive-tag{
+    
+    background-color: green;
+    color:white;
+   
+}
+button:focus{
+    outline:none;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    
 }
