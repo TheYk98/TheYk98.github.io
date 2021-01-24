@@ -237,9 +237,9 @@ padding:2rem 3rem;
  }
 nav{
     backdrop-filter: blur(12px);
-    background: rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.5);
     
 }
-header{
-    color:white!important;
+a{
+    color:rgb(240, 238, 238) !important;
 }
