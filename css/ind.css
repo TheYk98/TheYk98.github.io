@@ -68,7 +68,7 @@ footer{
     height:100vh;
     width: auto;
     overflow-x: hidden; 
-}
+  }
 .content {
    
     display: flex;
@@ -211,11 +211,14 @@ footer{
   }
  .abt-me{
      width:100%;
-     height:500px;
      background-color: black;
-     color: white;
-     padding: 30px 100px 20px 50px ;
-    
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+          color: white;
+     margin-top:40px;
+     
+        
 
  }
  .last-updated{
@@ -225,4 +228,16 @@ footer{
      justify-content: flex-end;
      font-size: 0.8em;
      margin-right: 20px;
+ }
+ .abt-me-body{
+margin-left:400px;
+margin-right: 400px;
+ }
+ .abt-sec{
+     background-color: black;
+     
+
+ }
+ .abt-me-header{
+     margin-bottom:50px;
  }
