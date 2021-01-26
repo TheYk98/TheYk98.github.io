@@ -160,9 +160,7 @@ footer{
 }
 
 @media only screen and ( max-width: 640px ) {
-    .project{
-        padding: 2rem 2rem;
-    }
+
     .dev-img { 
       display: none;
     }
@@ -197,6 +195,11 @@ footer{
      .download{
          width:200px;
      }
+   .project{
+       max-width:80vw;
+       padding:2rem;
+    
+   }
     
     
   }
@@ -231,10 +234,11 @@ footer{
  }
  .abt-me-body{
 padding:2rem 3rem;
+z-index: 30;
  }
  .abt-sec{
      background-color: black;
-     
+     position:relative;
 
  }
  .abt-me-header{
@@ -283,7 +287,7 @@ button{
 
 .tags{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
   
 }
 
@@ -303,7 +307,39 @@ button:focus{
    
     
 }
+.tags    {
+    padding :2px;
+}
 .tags button{
-    margin-left :0.5rem;
-    margin-top: 0.2rem;
+    margin :2px;
+}
+.square{
+    width:10rem;
+    height:10rem;
+    border:2px solid black;
+    border-radius: 2rem;
+    background:linear-gradient(to right bottom,#8E2DE2,#4A00E0);
+    backdrop-filter: blur(10px);
+    margin-bottom:1rem;
+    
+   
+}
+.two-squares{
+    transform: rotateZ(-50deg);
+   
+}
+.single-square{
+    transform: rotateZ(-50deg)  translateY(-70px) translateX(15px);
+
+}
+.squares{
+    position: absolute;
+    right:0;
+    bottom: 10%;
+    z-index:2;
+    
+    
+}
+.abt-me-header{
+    z-index:50;
 }
