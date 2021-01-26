@@ -1,7 +1,7 @@
 var typedTextSpan = document.querySelector(".interest");
 var conjuction = document.querySelector(".conjuction");
 var para_text = document.querySelector(".typewriter_p");
-const LoveTodo = ["Developer", "Analyst", "Strategist", "Motivator", "Software Engineer"]
+const LoveTodo = ["Developer", "Analyst", "Strategist", "Motivator", "Software Engineer","Proud Engineer"]
 const typeDelay = 200;
 const eraseDelay = 100;
 const newtext = 2000;
