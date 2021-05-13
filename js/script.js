@@ -49,3 +49,9 @@ startTyping()
 function isVowel(char) {
     return char === 'A' || char === 'E' || char === 'I' || char === 'O' || char === 'U' || false;
 }
+
+function goto(url)
+    {
+    window.location=url;
+
+    }
