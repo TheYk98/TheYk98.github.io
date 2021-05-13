@@ -12,6 +12,8 @@
     margin:0;
     padding: 0;
     flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+
   }
 
 
@@ -73,7 +75,6 @@ footer{
 
 .main {
     display:block;
-    height:100vh;
     width: auto;
     overflow-x: hidden; 
   }
@@ -89,8 +90,8 @@ footer{
       display: flex;
       flex-wrap: wrap;
       margin-top: 40px;
-      justify-content: space-around;
-      font-family: monospace;
+      justify-content: center;
+      align-items: center;
      
   }
   .download {
@@ -100,8 +101,8 @@ footer{
       font-size: 1.25rem;
       outline: none;
       border:none;
-      background-color: black;
-      color:whitesmoke;
+      background: linear-gradient(180deg,#f2cf00 0,#f2b200 100%);
+      color:black;
       margin:20px;
       width: 400px;
   }
@@ -237,6 +238,7 @@ footer{
  .abt-me-body{
 padding:2rem 3rem;
 z-index: 30;
+text-align: center;
  }
  .abt-sec{
      background-color: black;
@@ -380,3 +382,183 @@ button:focus{
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
+  .gum {
+    background: linear-gradient(to bottom,#7a19f1,#332179);
+    height:600px;
+    width: 100vw;
+    z-index: -1000;
+    position: absolute;
+    top:0;
+    border-radius: 0px 0px 25% 25%;
+  }
+
+.gum:after {
+    content: " ";
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    left: 0;
+    height: 250px;
+    opacity: .1;
+    position: absolute;
+    z-index: 1;
+    background-position: center top;
+    background-size: cover;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNDQwIDMyMCc+PHBhdGggZmlsbD0nI2ZmZmZmZicgZmlsbC1vcGFjaXR5PScwLjc1JyBkPSdNMCwzMkw2MCw1My4zQzEyMCw3NSwyNDAsMTE3LDM2MCwxNDRDNDgwLDE3MSw2MDAsMTgxLDcyMCwxNjBDODQwLDEzOSw5NjAsODUsMTA4MCw4MEMxMjAwLDc1LDEzMjAsMTE3LDEzODAsMTM4LjdMMTQ0MCwxNjBMMTQ0MCwzMjBMMTM4MCwzMjBDMTMyMCwzMjAsMTIwMCwzMjAsMTA4MCwzMjBDOTYwLDMyMCw4NDAsMzIwLDcyMCwzMjBDNjAwLDMyMCw0ODAsMzIwLDM2MCwzMjBDMjQwLDMyMCwxMjAsMzIwLDYwLDMyMEwwLDMyMFonPjwvcGF0aD48L3N2Zz4=);
+}
+.word{
+color: white;
+}
+.interest{
+    color:rgb(255, 230, 0);
+}
+.conjuction{
+    color: white;
+}
+.theyk-intro-quote{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.theyk-intro{
+    color: white;
+    padding: 50px;
+}
+
+.theyk-intro-author{
+    left:75vw;
+    position: absolute;
+    
+}
+.theyk-intro{
+    padding: 20px;
+}
+
+.services{
+    display: flex;
+  
+}
+.services-card{
+    margin:10px;
+}
+@media only screen and (max-width: 425px){
+    h1{
+        font-size:1em;
+    }
+    h6{
+        font-size: 0.75em;
+    }
+    /*Small smartphones [325px -> 425px]*/
+    .theyk-intro{
+        color: white;
+        padding: 0px 0px 25px 10px;
+        
+    }
+    .gum{
+        height:50%;
+    }
+    .services-card{
+        margin-left: 60px;
+    }    
+    .services{
+        margin-top: 80px !important;
+    }
+    .gum{
+        border-radius: 0px 0px 20% 20%;
+    }
+    .sub-div h1{
+        font-size: 1.3rem;
+    }
+    .intro-btn{
+        width:100px;
+        height: 30px;
+        padding: 3px;
+        font-size: 1em;
+    }
+    .services{
+        margin-top: 10px !important;
+    }
+    .main-button{
+        margin-top: 2px !important;
+    }
+}
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+
+    h1{
+        font-size:1.3em;
+    }
+    h6{
+        font-size: 0.70em;
+    }
+    /*Small smartphones [325px -> 425px]*/
+    .gum{
+        height:50%;
+    }
+    .theyk-intro-author{
+        left:70vw;
+    }
+    .theyk-intro{
+        color: white;
+        margin-top:130px;
+        text-align:center;
+        margin-bottom: 20px;
+    }
+    .typewriter{
+        font-size: 1.3em;
+    }
+    .intro-btn{
+        width:150px;
+        height: 50px;
+        padding: 3px;
+        font-size: 1em;
+    }
+    .main-button{
+        margin: 5px;
+    }
+    .services{
+        margin-top: 10px;
+    }
+}
+.service-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-img{
+    width:auto;
+    height:60px;
+   
+}
+.services-card{
+  
+    margin-right: 60px;
+
+    width: 350px;
+    height:275px;
+    padding: 10px;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-radius: 40px;
+}
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+    margin-top: 130px;
+   
+}
+.service-heading{
+    text-align: center;
+    padding: 20px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-content{
+    padding:0px 20px 0px 20px;
+    text-align: center;
+}
