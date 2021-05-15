@@ -272,13 +272,10 @@ a{
     background-image: url("../images/wave\ \(1\).svg");
     background-repeat: no-repeat;
     background-size: 200rem 10rem; 
-     background-position:bottom;
+    background-position:bottom;
 }
 
-.projects-container{
-    min-height: 100vh;
-   
-}
+
 
 button{
     border:none;
@@ -445,23 +442,62 @@ color: white;
 }
 @media only screen and (max-width: 425px){
     h1{
-        font-size:1em;
+        font-size:1.3em;
     }
+    h2{
+        font-size: 1.1em;
+    }
+  
+    h4 {
+        font-size: 0.85em;
+    }
+    h5{
+        font-size: 0.95em;
+    }
+
     h6{
-        font-size: 0.75em;
+        font-size: 0.7em;
+    }
+    
+    .typewriter_p {
+        font-size: 0.65em;
+        margin-bottom: 0;
+    }
+    .intro-btn{
+    height: 40px !important;
+    margin-top: 20px !important;
+    padding: 3px;
+    width:100px;
+    font-size: 1em;
+    margin-bottom: 0;
     }
     /*Small smartphones [325px -> 425px]*/
     .theyk-intro{
         color: white;
         padding: 0px 0px 25px 10px;
+        margin-bottom: 5px !important;
         
     }
     .timeline{
-        display: none;
+        left :25px !important;
+        margin-top: 110px !important;
+        height:440px !important;
+    }
+    .log2 {
+        margin-top:222px !important;
+    }
+    .log3 {
+        margin-top:173px !important;
+    }
+
+    .sub-title{
+        height:150px !important;
+        margin-top: 80px !important;
     }
     .gum{
         height:50%;
     }
+    
     .services-card{
         margin-left: 60px;
     }    
@@ -471,21 +507,44 @@ color: white;
     .sub-div h1{
         font-size: 1.3rem;
     }
-    .intro-btn{
-        width:100px;
-        height: 30px;
-        padding: 3px;
-        font-size: 1em;
-    }
     .services{
-        margin-top: 45px !important;
+        margin-top: 20px !important;
     }
     .main-button{
         margin-top: 2px !important;
     }
+    .work-logo{
+        width: 100px;
+        height: 100;
+        margin-right: 30px;
+    }
+    .theyk-intro{
+        color: white;
+        margin-top:130px;
+        text-align:center;
+        margin-bottom: 20px;
+    }
+    .main-button{
+        margin: 5px;
+    }
+    .role h2{
+        font-size: 1em;
+    }
+    .desc {
+        font-size: 0.8em;
+    }
+    .term {
+        font-size: 0.75em;
+    }
+    .experience-details{
+        padding: 10px;
+        width: 300px !important;
+    }
+    
+  
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 426px)and (max-width: 600px){
 	/*Big smartphones [426px -> 600px]*/
     .timeline{
         left:175px !important;
@@ -667,15 +726,12 @@ color: white;
     position: relative;
 }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (min-width: 600px) and (max-width: 1200px){
     /*Tablets [601px -> 1200px]*/
     .theyk-intro-quote{
         margin-top: 80px !important;
         padding: 10px !important; 
         text-align: center;
-    }
-    .navbar{
-        justify-content: space-around !important;
     }
     .work-logo{
         margin-right:100px;
@@ -683,4 +739,9 @@ color: white;
     .timeline {
         left:37%;
     }
+}
+.sub-title{
+    margin-top:150px;
+    text-align: center;
+    height: 200px;
 }
