@@ -586,7 +586,7 @@ color: white;
     width:400px;
 }
 .timeline{
-    height:320px;
+    height:340px;
     width: 1px;
     background-color: black;
     left:695px;
@@ -600,11 +600,11 @@ color: white;
     height: 20px;
 }
 .circle-active{
-    
+    margin-top:2px;
     background-color: orangered;
 }
 .log2 {
-    margin-top:140px;
+    margin-top:150px;
 }
 .log3{
     margin-top: 135px;
@@ -613,26 +613,3 @@ color: white;
     position:relative;
     left:-10px;
 }
-
-.blink_me {
-    animation: blinker 1s linear infinite;
-    
-  }
-  .outer-circle{
-      position: relative;
-      top:-2px;
-      left:-3px;
-      width: 25px;
-      height: 25px;
-      background-color: orangered;
-      border-radius: 50%;
-  }
-  
-  @keyframes blinker {
-    50% {
-      opacity: 0;
-    }
-    100% {
-        opacity: 60;
-      }
-  }
