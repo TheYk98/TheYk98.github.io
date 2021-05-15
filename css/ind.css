@@ -440,7 +440,7 @@ color: white;
 .services-card{
     margin:10px;
 }
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 360px){
     h1{
         font-size:1.3em;
     }
@@ -508,7 +508,109 @@ color: white;
         font-size: 1.3rem;
     }
     .services{
-        margin-top: 20px !important;
+        margin-top: 10% !important;
+    }
+    .main-button{
+        margin-top: 2px !important;
+    }
+    .work-logo{
+        width: 100px;
+        height: 100;
+        margin-right: 30px;
+    }
+    .theyk-intro{
+        color: white;
+        margin-top:130px;
+        text-align:center;
+        margin-bottom: 20px;
+    }
+    .main-button{
+        margin: 5px;
+    }
+    .role h2{
+        font-size: 1em;
+    }
+    .desc {
+        font-size: 0.8em;
+    }
+    .term {
+        font-size: 0.75em;
+    }
+    .experience-details{
+        padding: 10px;
+        width: 300px !important;
+    }
+    
+}
+@media only screen and (min-width: 361px)and (max-width: 425px){
+    h1{
+        font-size:1.3em;
+    }
+    h2{
+        font-size: 1.1em;
+    }
+  
+    h4 {
+        font-size: 0.85em;
+    }
+    h5{
+        font-size: 0.95em;
+    }
+
+    h6{
+        font-size: 0.7em;
+    }
+    
+    .typewriter_p {
+        font-size: 0.65em;
+        margin-bottom: 0;
+    }
+    .intro-btn{
+    height: 40px !important;
+    margin-top: 20px !important;
+    padding: 3px;
+    width:100px;
+    font-size: 1em;
+    margin-bottom: 0;
+    }
+    /*Small smartphones [325px -> 425px]*/
+    .theyk-intro{
+        color: white;
+        padding: 0px 0px 25px 10px;
+        margin-bottom: 5px !important;
+        
+    }
+    .timeline{
+        left :25px !important;
+        margin-top: 110px !important;
+        height:440px !important;
+    }
+    .log2 {
+        margin-top:222px !important;
+    }
+    .log3 {
+        margin-top:173px !important;
+    }
+
+    .sub-title{
+        height:150px !important;
+        margin-top: 80px !important;
+    }
+    .gum{
+        height:50%;
+    }
+    
+    .services-card{
+        margin-left: 60px;
+    }    
+    .gum{
+        border-radius: 0px 0px 20% 20%;
+    }
+    .sub-div h1{
+        font-size: 1.3rem;
+    }
+    .services{
+        margin-top: 30% !important;
     }
     .main-button{
         margin-top: 2px !important;
