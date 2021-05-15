@@ -465,9 +465,6 @@ color: white;
     .services-card{
         margin-left: 60px;
     }    
-    .services{
-        margin-top: 80px !important;
-    }
     .gum{
         border-radius: 0px 0px 20% 20%;
     }
@@ -670,3 +667,20 @@ color: white;
     position: relative;
 }
 
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .theyk-intro-quote{
+        margin-top: 80px !important;
+        padding: 10px !important; 
+        text-align: center;
+    }
+    .navbar{
+        justify-content: space-around !important;
+    }
+    .work-logo{
+        margin-right:100px;
+    }
+    .timeline {
+        left:37%;
+    }
+}
