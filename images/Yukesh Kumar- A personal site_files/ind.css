@@ -174,7 +174,6 @@ footer{
         margin-top: 30%;
 
     }
-  
     .submit-card {
         max-width: 95vw;
         margin:1rem auto; 
@@ -456,15 +455,15 @@ color: white;
         padding: 0px 0px 25px 10px;
         
     }
-    .timeline{
-        display: none;
-    }
     .gum{
         height:50%;
     }
     .services-card{
         margin-left: 60px;
     }    
+    .services{
+        margin-top: 80px !important;
+    }
     .gum{
         border-radius: 0px 0px 20% 20%;
     }
@@ -478,7 +477,7 @@ color: white;
         font-size: 1em;
     }
     .services{
-        margin-top: 45px !important;
+        margin-top: 10px !important;
     }
     .main-button{
         margin-top: 2px !important;
@@ -487,15 +486,7 @@ color: white;
 
 @media only screen and (max-width: 600px){
 	/*Big smartphones [426px -> 600px]*/
-    .timeline{
-        left:175px !important;
-    }
-    .log2 {
-        margin-top:120px !important;
-    }
-    .log3{
-        margin-top: 140px !important;
-    }
+
     h1{
         font-size:1.3em;
     }
@@ -506,16 +497,8 @@ color: white;
     .gum{
         height:50%;
     }
-    .work{
-        justify-content: space-around;
-    }
     .theyk-intro-author{
         left:70vw;
-    }
-    .work-logo{
-        width: 100px;
-        height: 100;
-        margin-right: 30px;
     }
     .theyk-intro{
         color: white;
@@ -537,19 +520,6 @@ color: white;
     }
     .services{
         margin-top: 10px;
-    }
-    .role h2{
-        font-size: 1em;
-    }
-    .desc {
-        font-size: 0.8em;
-    }
-    .term {
-        font-size: 0.75em;
-    }
-    .experience-details{
-        padding: 10px;
-        width: 300px !important;
     }
 }
 .service-img-container{
@@ -597,13 +567,16 @@ color: white;
     justify-content: center;
     align-items: center;
 }
-.grablogo , .flaptics{
-    height: auto;
-    width: 100px;
+.grablogo{
+    height: 100px;
+    width: auto;
+}
+.flaptics{
+    width:100px;
+    height:auto;
 }
 .Work-Experience{
     margin-top: 20px;
-    position: relative;
 }
 .work{
     margin-bottom: 40px;
@@ -613,10 +586,10 @@ color: white;
     width:400px;
 }
 .timeline{
-    height:320px;
+    height:340px;
     width: 1px;
     background-color: black;
-    left:42%;
+    left:695px;
     position: absolute;
     margin-top: 10px;
 }
@@ -627,11 +600,11 @@ color: white;
     height: 20px;
 }
 .circle-active{
-    
+    margin-top:2px;
     background-color: orangered;
 }
 .log2 {
-    margin-top:140px;
+    margin-top:150px;
 }
 .log3{
     margin-top: 135px;
@@ -639,48 +612,4 @@ color: white;
 .circle-log{
     position:relative;
     left:-10px;
-}
-
-.blink_me {
-    animation: blinker 1s linear infinite;
-    
-  }
-  .outer-circle{
-      position: relative;
-      top:-2px;
-      left:-3px;
-      width: 25px;
-      height: 25px;
-      background-color: orangered;
-      border-radius: 50%;
-  }
-  
-  @keyframes blinker {
-    50% {
-      opacity: 0;
-    }
-    100% {
-        opacity: 60;
-      }
-  }
-.timeline-inner{
-    position: relative;
-}
-
-@media only screen and (max-width: 1200px){
-    /*Tablets [601px -> 1200px]*/
-    .theyk-intro-quote{
-        margin-top: 80px !important;
-        padding: 10px !important; 
-        text-align: center;
-    }
-    .navbar{
-        justify-content: space-around !important;
-    }
-    .work-logo{
-        margin-right:100px;
-    }
-    .timeline {
-        left:37%;
-    }
 }
