@@ -435,6 +435,17 @@ color: white;
 .services-card{
     margin:10px;
 }
+@media only screen and (min-width:360px) {
+    .form-divider{
+        display: none !important;
+    }
+    .form-parent{
+        height:200vh !important;
+    }
+    .form-child{
+        height: 85% !important;
+    }
+}
 @media only screen and (max-width: 360px){
     h1{
         font-size:1.3em;
@@ -536,7 +547,10 @@ color: white;
         width: 300px !important;
     }
     
+    
 }
+
+
 @media only screen and (min-width: 361px)and (max-width: 425px){
     h1{
         font-size:1.3em;
@@ -823,6 +837,7 @@ color: white;
     position: relative;
 }
 
+
 @media only screen and (min-width: 600px) and (max-width: 1200px){
     /*Tablets [601px -> 1200px]*/
     .theyk-intro-quote{
@@ -835,6 +850,13 @@ color: white;
     }
     .timeline {
         left:37%;
+    }
+    .form-parent{
+    height: 68vh !important;
+    }
+    .msg-img{
+        top: 80px !important;
+        left: 200px;
     }
 }
 .sub-title{
@@ -857,7 +879,7 @@ position: relative;
 .form-child{
     background: rgba( 255, 255, 255, 0.25 );
     width: 80%;
-    height: 500px;
+    height: 80%;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur(12px );
@@ -876,6 +898,7 @@ position: relative;
 .msg-img{
     position:absolute;
     top:50px;
+    max-width: 80vw;
 }
 .form-submit-btn{
     width:200px;
