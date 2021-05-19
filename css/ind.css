@@ -435,7 +435,7 @@ color: white;
 .services-card{
     margin:10px;
 }
-@media only screen and (min-width:360px) {
+@media only screen and (min-width:360px) and (max-width: 1200px) {
     .form-divider{
         display: none !important;
     }
@@ -651,11 +651,18 @@ color: white;
         padding: 10px;
         width: 300px !important;
     }
+    .form-parent{
+        height: 100vh !important;
+        }
+        .msg-img{
+            top: 80px !important;
+            left: 80px;
+        }
     
   
 }
 
-@media only screen and (min-width: 426px)and (max-width: 600px){
+@media only screen and (min-width: 426px) and (max-width: 600px){
 	/*Big smartphones [426px -> 600px]*/
     .timeline{
         left:175px !important;
@@ -721,6 +728,7 @@ color: white;
         padding: 10px;
         width: 300px !important;
     }
+    
 }
 .service-img-container{
     display: flex;
@@ -879,7 +887,7 @@ position: relative;
 .form-child{
     background: rgba( 255, 255, 255, 0.25 );
     width: 80%;
-    height: 80%;
+    height: 87%;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur(12px );
