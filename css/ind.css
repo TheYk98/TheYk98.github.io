@@ -126,21 +126,23 @@ footer{
   }
 
 
-.submit-card {
-  max-width: 500px;
- margin:2rem auto;  
- box-shadow: 5px 10px 20px grey;
- display: inline-block;
- padding: 100px;
- 
-}
 .text-input{
     width: 300px;
+    height:30px;
+    background: rgba( 255, 255, 255, 0.55 );
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 0 8px 32px 5px rgba( 31, 38, 135, 0.37 );
 }
 .text-area{
-    display: block;
     width: 300px;
     height: 250px;
+    border: none;
+    background: rgba( 255, 255, 255, 0.55 );
+    border-radius: 50px;
+    outline: none;
+    box-shadow: 0 8px 32px 5px rgba( 31, 38, 135, 0.37 );
 }
 .submit-btn{
     max-width:50vw;
@@ -152,13 +154,6 @@ footer{
    display: flex;
    justify-content: space-between;
   }
-.form-card{
-    
-    
-    width: 100%;
-    padding-left:50px;
-    padding-top: 30px;
-}
 
 @media only screen and ( max-width: 650px ) {
 
@@ -383,7 +378,7 @@ button:focus{
   .gum {
     background: linear-gradient(to bottom,#7a19f1,#332179);
     height:600px;
-    width: 100vw;
+    width: 100%;
     z-index: -1000;
     position: absolute;
     top:0;
@@ -846,4 +841,105 @@ color: white;
     margin-top:150px;
     text-align: center;
     height: 200px;
+}
+.form-parent{
+    background: rgb(3,244,223);
+    background: linear-gradient(90deg, rgba(3,244,223,1) 27%, rgba(71,139,249,1) 76%);
+height:600px;
+width:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+
+}
+
+.form-child{
+    background: rgba( 255, 255, 255, 0.25 );
+    width: 80%;
+    height: 500px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur(12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-texts{
+    color:black;
+    margin:50px;
+    width:450px;
+}
+.msg-img{
+    position:absolute;
+    top:50px;
+}
+.form-submit-btn{
+    width:200px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    color:white;
+    background-color: black;
+
+}
+.formBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.formBtn button:hover{
+    
+    cursor: pointer;
+   
+}
+
+.sm-icon-container:hover {
+    opacity: 0.7;
+    transform: scale(0.8,0.8);
+}
+
+.form-sm-icon {
+ 
+  margin: 4px;
+  font-size: 20px;
+color:white
+  
+}
+.form-social-media{
+display: flex;
+}
+.form-social-media fa-twitter{
+    background-color: red;
+
+}
+.form-divider{
+    width:2px;
+    height:350px;
+    background: black;
+    margin-right: 40px;
+}
+.sm-twitter{
+    background: #55ACEE;
+}
+.sm-icon-container{
+    height:30px;
+    width:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:5px;
+}
+.sm-gmail{
+    background: #dd4b39;
+}
+.sm-in{
+    background: #007bb5;
+}
+.sm-reddit {
+    background: #ff5700;
 }
