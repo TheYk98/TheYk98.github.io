@@ -882,6 +882,13 @@ color: white;
     .timeline{
         left:30% !important;
     }
+
+    .form-parent{
+        height:100vh !important;
+    }
+    .msg-img{
+        left:12% !important;
+    }
 }
 .sub-title{
     margin-top:150px;
