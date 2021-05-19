@@ -652,11 +652,15 @@ color: white;
         width: 300px !important;
     }
     .form-parent{
-        height: 100vh !important;
+        height: 1000px !important;
+        width: 100% !important;
         }
         .msg-img{
             top: 80px !important;
-            left: 80px;
+            left: 50px;
+        }
+        .form-child{
+            width: 90% !important;
         }
     
   
