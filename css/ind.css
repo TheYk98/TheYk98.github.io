@@ -126,21 +126,23 @@ footer{
   }
 
 
-.submit-card {
-  max-width: 500px;
- margin:2rem auto;  
- box-shadow: 5px 10px 20px grey;
- display: inline-block;
- padding: 100px;
- 
-}
 .text-input{
     width: 300px;
+    height:30px;
+    background: rgba( 255, 255, 255, 0.55 );
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 0 8px 32px 5px rgba( 31, 38, 135, 0.37 );
 }
 .text-area{
-    display: block;
     width: 300px;
     height: 250px;
+    border: none;
+    background: rgba( 255, 255, 255, 0.55 );
+    border-radius: 50px;
+    outline: none;
+    box-shadow: 0 8px 32px 5px rgba( 31, 38, 135, 0.37 );
 }
 .submit-btn{
     max-width:50vw;
@@ -152,13 +154,6 @@ footer{
    display: flex;
    justify-content: space-between;
   }
-.form-card{
-    
-    
-    width: 100%;
-    padding-left:50px;
-    padding-top: 30px;
-}
 
 @media only screen and ( max-width: 650px ) {
 
@@ -310,7 +305,8 @@ button:focus{
 
 .grid{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
    
     
 }
@@ -383,7 +379,7 @@ button:focus{
   .gum {
     background: linear-gradient(to bottom,#7a19f1,#332179);
     height:600px;
-    width: 100vw;
+    width: 100%;
     z-index: -1000;
     position: absolute;
     top:0;
@@ -439,6 +435,22 @@ color: white;
 }
 .services-card{
     margin:10px;
+}
+@media only screen and (min-width:200px) and (max-width: 1200px) {
+    .form-divider{
+        display: none !important;
+    }
+    .form-parent{
+        height:200vh !important;
+    }
+    .form-child{
+        height: 80% !important;
+    }
+
+    .msg-img{
+        top:20% !important;
+    }
+
 }
 @media only screen and (max-width: 360px){
     h1{
@@ -541,7 +553,10 @@ color: white;
         width: 300px !important;
     }
     
+    
 }
+
+
 @media only screen and (min-width: 361px)and (max-width: 425px){
     h1{
         font-size:1.3em;
@@ -642,11 +657,22 @@ color: white;
         padding: 10px;
         width: 300px !important;
     }
+    .form-parent{
+        height: 1000px !important;
+        width: 100% !important;
+        }
+        .msg-img{
+            top: 80px !important;
+            left: 50px;
+        }
+        .form-child{
+            width: 90% !important;
+        }
     
   
 }
 
-@media only screen and (min-width: 426px)and (max-width: 600px){
+@media only screen and (min-width: 426px) and (max-width: 600px){
 	/*Big smartphones [426px -> 600px]*/
     .timeline{
         left:175px !important;
@@ -712,6 +738,7 @@ color: white;
         padding: 10px;
         width: 300px !important;
     }
+    
 }
 .service-img-container{
     display: flex;
@@ -828,6 +855,7 @@ color: white;
     position: relative;
 }
 
+
 @media only screen and (min-width: 600px) and (max-width: 1200px){
     /*Tablets [601px -> 1200px]*/
     .theyk-intro-quote{
@@ -841,9 +869,155 @@ color: white;
     .timeline {
         left:37%;
     }
+    .form-parent{
+    height: 68vh !important;
+    }
+    .msg-img{
+        top: 80px !important;
+        left: 200px;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width:780px){
+    .timeline{
+        left:30% !important;
+    }
+
+    .form-parent{
+        height:100vh !important;
+    }
+    .msg-img{
+        left:12% !important;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .experience-details{
+        margin-left:30px;
+    }
+    .log3 {
+        margin-top: 190px !important;
+    }
+    .timeline{
+        height: 475px !important;
+    }
+    .log2 {
+        margin-top: 240px !important;
+    }
+    .services-card{
+        width: 400px !important;
+        height:300px !important;
+    }
+    .service-content{
+        width:220px !important;
+    }
 }
 .sub-title{
     margin-top:150px;
     text-align: center;
+    margin-left:20px;
+    margin-right: 20px;
     height: 200px;
+}
+.form-parent{
+    background: rgb(3,244,223);
+    background: linear-gradient(90deg, rgba(3,244,223,1) 27%, rgba(71,139,249,1) 76%);
+height:600px;
+width:100%;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+
+}
+
+.form-child{
+    background: rgba( 255, 255, 255, 0.25 );
+    width: 80%;
+    height: 87%;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur(12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-texts{
+    color:black;
+    margin:50px;
+    width:450px;
+}
+.msg-img{
+    position:absolute;
+    top:50px;
+    max-width: 80vw;
+}
+.form-submit-btn{
+    width:200px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    color:white;
+    background-color: black;
+
+}
+.formBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.formBtn button:hover{
+    
+    cursor: pointer;
+   
+}
+
+.sm-icon-container:hover {
+    opacity: 0.7;
+    transform: scale(0.8,0.8);
+}
+
+.form-sm-icon {
+ 
+  margin: 4px;
+  font-size: 20px;
+color:white
+  
+}
+.form-social-media{
+display: flex;
+}
+.form-social-media fa-twitter{
+    background-color: red;
+
+}
+.form-divider{
+    width:2px;
+    height:350px;
+    background: black;
+    margin-right: 40px;
+}
+.sm-twitter{
+    background: #55ACEE;
+}
+.sm-icon-container{
+    height:30px;
+    width:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:5px;
+}
+.sm-gmail{
+    background: #dd4b39;
+}
+.sm-in{
+    background: #007bb5;
+}
+.sm-reddit {
+    background: #ff5700;
 }
