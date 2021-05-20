@@ -263,11 +263,13 @@ a{
     box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
     border-radius: 2rem;
     margin:2rem ;
-
+    position: relative;
     background-image: url("../images/wave\ \(1\).svg");
     background-repeat: no-repeat;
-    background-size: 200rem 10rem; 
+    background-size: 300rem 20rem; 
+    z-index:-2;
     background-position:bottom;
+    min-height:300px;
 }
 
 
@@ -453,6 +455,9 @@ color: white;
 
 }
 @media only screen and (max-width: 360px){
+    .prj-id h1{
+        font-size: 4rem !important;
+        }
     h1{
         font-size:1.3em;
     }
@@ -558,6 +563,10 @@ color: white;
 
 
 @media only screen and (min-width: 361px)and (max-width: 425px){
+    .prj-id h1{
+        font-size: 5rem !important;
+        top:0 !important;
+        }
     h1{
         font-size:1.3em;
     }
@@ -674,6 +683,9 @@ color: white;
 
 @media only screen and (min-width: 426px) and (max-width: 600px){
 	/*Big smartphones [426px -> 600px]*/
+    .prj-id h1{
+    font-size: 5rem !important;
+    }
     .timeline{
         left:175px !important;
     }
@@ -1020,4 +1032,30 @@ display: flex;
 }
 .sm-reddit {
     background: #ff5700;
+}
+
+.prj-id{
+    position:absolute;
+    right:5%;
+    z-index: -1;
+    top:20%;
+}
+.prj-id h1{
+    font-size: 7.5rem;
+    background: linear-gradient(to bottom, rgb(235, 235, 235) 45%,white 45%,white 55%,rgb(235, 235, 235) 55%, rgb(235, 235, 235) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.souces{
+    margin-bottom:50px;
+}
+.tag-title{
+    color:white
+}
+@media only screen and (max-width: 1500px){
+    .project{
+        background-size: 150rem 16rem !important; 
+    }
 }
