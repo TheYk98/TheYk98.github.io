@@ -7,6 +7,9 @@
      font-family:sequel;
      src: url(../fonts/MonumentExtended-Bold.woff);
  }
+ html {
+    scroll-behavior: smooth;
+}
  * {
     box-sizing: border-box;
     margin:0;
@@ -238,11 +241,12 @@ text-align: center;
  }
  .abt-sec{
      background-color: black;
+     min-height:400px;
      position:relative;
 
  }
  .abt-me-header{
- 
+    margin-top: 100px !important;
      padding:1rem 3rem;
  }
 nav{
