@@ -1,14 +1,7 @@
 
-@font-face {
-    font-family:sfpro;
-    src: url(./font/San-Francisco-Pro-Fonts-master);
- }
- @font-face{
-     font-family:sequel;
-     src: url(../fonts/MonumentExtended-Bold.woff);
- }
  html {
     scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 }
  * {
     box-sizing: border-box;
@@ -271,7 +264,6 @@ a{
     background-image: url("../images/wave\ \(1\).svg");
     background-repeat: no-repeat;
     background-size: 300rem 20rem; 
-    z-index:-2;
     background-position:bottom;
     min-height:300px;
 }
