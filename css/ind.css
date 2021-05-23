@@ -266,6 +266,7 @@ a{
     background-size: 300rem 20rem; 
     background-position:bottom;
     min-height:300px;
+    height:740px
 }
 
 
@@ -1053,5 +1054,6 @@ display: flex;
 @media only screen and (max-width: 1500px){
     .project{
         background-size: 150rem 16rem !important; 
+        height :50% !important;
     }
 }
