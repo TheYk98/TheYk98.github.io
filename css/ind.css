@@ -129,6 +129,7 @@ footer{
     border-radius: 20px;
     border: none;
     outline: none;
+    padding-left:10px;
     box-shadow: 0 8px 32px 5px rgba( 31, 38, 135, 0.37 );
 }
 .text-area{
@@ -138,6 +139,7 @@ footer{
     background: rgba( 255, 255, 255, 0.55 );
     border-radius: 50px;
     outline: none;
+    padding:25px;
     box-shadow: 0 8px 32px 5px rgba( 31, 38, 135, 0.37 );
 }
 .submit-btn{
